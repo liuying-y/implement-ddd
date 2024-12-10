@@ -1,0 +1,7 @@
+{
+  "test": "echo 1",
+  "eslint": "yarn g:eslint lib/",
+  "typecheck": "yarn g:typecheck",
+  "publish:pkg": "yarn g:publish:pkg",
+  "build:pkg": "yarn g:build:pkg"
+}
