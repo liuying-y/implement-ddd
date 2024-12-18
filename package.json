@@ -10,7 +10,7 @@
     "app/*"
   ],
   "scripts": {
-    "start:dev": "yarn workspace @dauyan/story run storybook -- 9001",
+    "start:dev": "yarn workspace story run storybook -- 9001",
     "g:eslint": "cd $INIT_CWD && eslint",
     "eslint": "yarn workspaces foreach -A run eslint",
     "g:typecheck": "cd $INIT_CWD && tsc",

@@ -44,6 +44,8 @@ const pkgData = require(path.resolve(base_path, fullpath, 'package.json'));
   // Update description
   pkgData.description = '';
 
+  pkgData.private = false;
+
   // clear default file
   if (pkgData.main) {
     const entry = 'lib/index.ts';

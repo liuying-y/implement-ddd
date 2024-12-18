@@ -1,0 +1,35 @@
+{
+  "name": "story",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "author": "Liuying <shillyshally@aliyun.com>",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuying-y/implement-ddd.git"
+  },
+  "scripts": {
+    "test": "echo 1",
+    "eslint": "yarn g:eslint lib/",
+    "typecheck": "yarn g:typecheck",
+    "publish:pkg": "echo 1",
+    "build:pkg": "echo 1"
+  },
+  "bugs": {
+    "url": "https://github.com/liuying-y/implement-ddd/issues"
+  },
+  "homepage": "https://github.com/liuying-y/implement-ddd#readme"
+}

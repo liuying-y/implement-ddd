@@ -626,6 +626,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ly/quiz@workspace:packages/quiz":
+  version: 0.0.0-use.local
+  resolution: "@ly/quiz@workspace:packages/quiz"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -9885,6 +9891,12 @@ __metadata:
   checksum: df74b5883075076e78f8e365e4068ecd977af6c09da510cfc3148a303d4b87bc9aa8f7c48feb67ed4ef970b6140bd9eabba2129e28024aa88df5ea0114cba39d
   languageName: node
   linkType: hard
+
+"story@workspace:app/story":
+  version: 0.0.0-use.local
+  resolution: "story@workspace:app/story"
+  languageName: unknown
+  linkType: soft
 
 "string-hash@npm:^1.1.1":
   version: 1.1.3
